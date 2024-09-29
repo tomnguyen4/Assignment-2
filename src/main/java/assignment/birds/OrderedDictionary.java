@@ -54,9 +54,43 @@ public class OrderedDictionary implements OrderedDictionaryADT {
      * @throws birds.DictionaryException
      */
     @Override
+    
+    @Override
     public void insert(BirdRecord r) throws DictionaryException {
-        // Write this method
+        Node newNode = new Node(r);
+        if (root.isEmpty()) {
+            root = newNode;
+            return;
+        }
+
+        Node current = root;
+        Node parent = null;
+        int comparison = 0;
+
+        while (current != null) {
+            parent = current;
+            comparison = r.getDataKey().compareTo(current.getData().getDataKey());
+
+            if (comparison == 0) {
+                // Record with the same key exists
+                throw new DictionaryException("A record with the same key already exists.");
+            } else if (comparison < 0) {
+                current = current.getLeftChild();
+            } else {
+                current = current.getRightChild();
+            }
+        }
+
+        // Insert new node at the correct position
+        if (comparison < 0) {
+            parent.setLeftChild(newNode);
+        } else {
+            parent.setRightChild(newNode);
+        }
     }
+
+        // Write this method
+    
 
     /**
      * Removes the record with Key k from the dictionary. It throws a
@@ -87,7 +121,7 @@ public class OrderedDictionary implements OrderedDictionaryADT {
 
    
     /**
-     * Returns the predecessor of k (the record from the ordered dictionary with
+     * Returns the predecessor of k the record from the ordered dictionary with
      * largest key smaller than k; it returns null if the given key has no
      * predecessor. The given key DOES NOT need to be in the dictionary.
      *
