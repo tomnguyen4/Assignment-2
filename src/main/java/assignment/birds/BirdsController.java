@@ -154,20 +154,59 @@ public class BirdsController implements Initializable {
     }
 
     public void first() {
-        // Write this method
+        try {
+            bird = database.smallest();
+            if(bird != null)
+            {
+            System.out.println("First Bird " + bird.getDataKey().getBirdName());
+
+            showBird();
+            }
+        } catch (DictionaryException ex) {
+            displayAlert(ex.getMessage());
+        }
     }
 
     public void last() {
-        // Write this method
+        try {
+            bird = database.largest();
+            if (bird != null) {
+                System.out.println("Last Bird " + bird.getDataKey().getBirdName());
+                showBird();
+            }
+        } catch (DictionaryException ex) {
+            displayAlert(ex.getMessage());
+        }
     }
+    
 
     public void next() {
-        // Write this method;
+        try {
+            BirdRecord nextBird = database.successor(bird.getDataKey());
+            if (nextBird != null) {
+                bird = nextBird;
+                System.out.println("Next Bird: " + bird.getDataKey().getBirdName());
+                showBird();
+            }
+        } catch (DictionaryException ex) {
+            displayAlert(ex.getMessage());
+        }
     }
+    
 
     public void previous() {
-        // Write this method
+        try {
+            BirdRecord previousBird = database.predecessor(bird.getDataKey());
+            if (previousBird != null) {
+                bird = previousBird;
+                System.out.println("Previous Bird: " + bird.getDataKey().getBirdName());
+                showBird();
+            }
+        } catch (DictionaryException ex) {
+            displayAlert(ex.getMessage());
+        }
     }
+    
 
     public void play() {
         String filename = "src/main/resources/assignment/birds/sounds/" + bird.getSound();
