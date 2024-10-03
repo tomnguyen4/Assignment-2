@@ -19,7 +19,7 @@ A compact hatchback known for its European build quality, sharp handling, and ve
 1
 Hyundai Elantra
 A compact sedan that offers bold styling, a variety of tech features, and an impressive warranty. The Elantra stands out with its spacious interior and high fuel efficiency, appealing to budget-conscious buyers seeking a reliable car.
-1
+2
 Subaru Outback
 This crossover is known for its all-wheel drive, spacious cabin, and rugged capability. The Outback is perfect for families or outdoor enthusiasts who need a vehicle that can handle both daily commuting and off-road adventures.
 1
@@ -46,7 +46,7 @@ The 911 Turbo S is renowned for its perfect balance of performance and everyday 
 3
 Rolls-Royce Phantom
 The epitome of luxury, the Rolls-Royce Phantom offers a serene, opulent driving experience with a V12 engine under its massive hood. Every detail, from the hand-crafted interior to the ultra-smooth ride, is designed for ultimate comfort and exclusivity.
-2
+3
 Bentley Continental GT
 A grand tourer known for blending performance and luxury, the Bentley Continental GT features a powerful W12 engine, advanced tech features, and a meticulously crafted interior. It’s built for long, luxurious drives with ample power on tap.
 2
@@ -55,6 +55,6 @@ The S-Class sets the standard for luxury sedans, offering cutting-edge technolog
 2
 BMW 7 Series
 BMW’s flagship luxury sedan, the 7 Series, offers a blend of comfort, technology, and driving dynamics. With powerful engine options and an elegant interior, the 7 Series competes at the highest level of luxury while still being a driver’s car.
-3
+2
 Audi A8
 Audi’s full-size luxury sedan, the A8, is packed with technology and offers a smooth, refined ride. It’s known for its understated design, all-wheel-drive system, and spacious, tech-laden interior, making it a top choice for those seeking sophisticated luxury.
