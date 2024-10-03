@@ -1,0 +1,60 @@
+1
+Toyota Corolla
+One of the best-selling cars globally, known for its reliability, fuel efficiency, and affordable price. The Corolla is a compact sedan that offers a comfortable ride, great fuel economy (up to 32 MPG city), and standard safety features, making it ideal for daily commutes.
+1
+Honda Civic
+The Civic is a versatile compact car, loved for its sporty design, fuel efficiency, and overall performance. Available as a sedan or hatchback, it offers a range of trims including a performance-oriented Si version. It balances practicality with fun-to-drive dynamics.
+1
+Ford F-150
+America’s best-selling truck for decades, the F-150 is known for its durability, powerful engine options, and high towing capacity. With numerous trims available, it serves everyone from construction workers to off-road enthusiasts, and now includes a hybrid version.
+1
+Chevrolet Malibu
+A midsize sedan that offers a comfortable ride, fuel-efficient engines, and modern infotainment systems. It competes in the highly competitive sedan segment, with a focus on affordability and practicality for families or daily commuting.
+1
+Nissan Altima
+A midsize sedan with available all-wheel drive, the Altima combines advanced tech features like ProPILOT Assist and fuel-efficient powertrains. It’s well-suited for highway driving with its smooth CVT transmission and spacious interior.
+1
+Volkswagen Golf
+A compact hatchback known for its European build quality, sharp handling, and versatile cargo space. The Golf has long been praised for blending practicality with a fun driving experience, and its GTI variant is a favorite among enthusiasts.
+1
+Hyundai Elantra
+A compact sedan that offers bold styling, a variety of tech features, and an impressive warranty. The Elantra stands out with its spacious interior and high fuel efficiency, appealing to budget-conscious buyers seeking a reliable car.
+1
+Subaru Outback
+This crossover is known for its all-wheel drive, spacious cabin, and rugged capability. The Outback is perfect for families or outdoor enthusiasts who need a vehicle that can handle both daily commuting and off-road adventures.
+1
+Mazda 3
+A stylish compact car that offers an engaging driving experience, premium interior, and available all-wheel drive. The Mazda 3 is praised for its sharp handling and upscale feel, making it a favorite in the small car segment.
+1
+Kia Sportage
+ A compact SUV that offers a roomy interior, competitive pricing, and a strong warranty. The Sportage is ideal for families looking for an affordable yet well-equipped vehicle that handles city driving and weekend road trips with ease.
+3
+Ferrari 488 GTB
+A mid-engine supercar with a twin-turbo V8 engine producing 661 horsepower, the Ferrari 488 GTB accelerates from 0 to 60 mph in just 3 seconds. It offers thrilling performance, razor-sharp handling, and the iconic Ferrari design that commands attention.
+3
+Lamborghini Aventador
+This V12-powered beast is known for its aggressive styling and jaw-dropping performance. The Aventador delivers over 700 horsepower, making it one of the most powerful and fastest cars on the road. It’s a true symbol of extreme performance and luxury.
+3
+McLaren 720S
+With a 4.0-liter twin-turbocharged V8 engine, the McLaren 720S delivers 710 horsepower and astonishing speed. Known for its aerodynamics and lightweight design, this supercar is as much about precision handling as it is about raw power.
+3
+Bugatti Chiron
+The Bugatti Chiron is one of the fastest production cars in the world, powered by a quad-turbo W16 engine that delivers 1,479 horsepower. It combines cutting-edge technology, luxury craftsmanship, and extreme speed, capable of exceeding 261 mph.
+2
+Porsche 911 Turbo S
+The 911 Turbo S is renowned for its perfect balance of performance and everyday usability. With a twin-turbocharged flat-six engine, it produces 640 horsepower and rockets from 0 to 60 mph in just 2.6 seconds, all while maintaining classic Porsche refinement.
+3
+Rolls-Royce Phantom
+The epitome of luxury, the Rolls-Royce Phantom offers a serene, opulent driving experience with a V12 engine under its massive hood. Every detail, from the hand-crafted interior to the ultra-smooth ride, is designed for ultimate comfort and exclusivity.
+2
+Bentley Continental GT
+A grand tourer known for blending performance and luxury, the Bentley Continental GT features a powerful W12 engine, advanced tech features, and a meticulously crafted interior. It’s built for long, luxurious drives with ample power on tap.
+2
+Mercedes-Benz S-Class
+The S-Class sets the standard for luxury sedans, offering cutting-edge technology, supreme comfort, and a smooth ride. Its cabin is filled with the finest materials, and the latest model comes with an advanced semi-autonomous driving system.
+2
+BMW 7 Series
+BMW’s flagship luxury sedan, the 7 Series, offers a blend of comfort, technology, and driving dynamics. With powerful engine options and an elegant interior, the 7 Series competes at the highest level of luxury while still being a driver’s car.
+3
+Audi A8
+Audi’s full-size luxury sedan, the A8, is packed with technology and offers a smooth, refined ride. It’s known for its understated design, all-wheel-drive system, and spacious, tech-laden interior, making it a top choice for those seeking sophisticated luxury.
