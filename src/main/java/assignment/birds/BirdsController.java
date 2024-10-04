@@ -264,9 +264,9 @@ public class BirdsController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         database = new OrderedDictionary();
         size.setItems(FXCollections.observableArrayList(
-                "Small", "Medium", "Large"
+                "Small", "Medium", "Large", "None"
         ));
-        size.setValue("Small");
+        size.setValue("None");
     }
 
 }
