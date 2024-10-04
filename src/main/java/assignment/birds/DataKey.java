@@ -27,19 +27,17 @@ public class DataKey {
 	 * than k, and it returns 1 otherwise. 
 	 */
 	public int compareTo(DataKey k) {
-            if (this.getBirdSize() == k.getBirdSize()) {
-                int compare = this.birdName.compareTo(k.getBirdName());
-                if (compare == 0){
-                     return 0;
-                } 
-                else if (compare < 0) {
-                    return -1;
-                }
-            }
-            else if(this.getBirdSize() < k.getBirdSize()){
-                    return -1;
-            }
-            return 1;
-            
+		if (this.getBirdSize() == k.getBirdSize()) {
+			if (this.birdName.contains(k.getBirdName())) {
+				return 0;
+			} 
+			else if (this.birdName.compareTo(k.getBirdName()) < 0) {
+				return -1;
+			}
+		}
+		else if(this.getBirdSize() < k.getBirdSize()){
+			return -1;
+		}
+		return 1;
 	}
 }

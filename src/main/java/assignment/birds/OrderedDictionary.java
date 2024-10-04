@@ -23,7 +23,7 @@ public class OrderedDictionary implements OrderedDictionaryADT {
         if (root.isEmpty()) {         
             throw new DictionaryException("There is no record matches the given key");
         }
-
+        
         while (true) {
             comparison = current.getData().getDataKey().compareTo(k);
             if (comparison == 0) { // key found
