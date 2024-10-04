@@ -109,7 +109,7 @@ public class BirdsController implements Initializable {
             player.stop();
         }
         String img = bird.getImage();
-        Image birdImage = new Image("file:src/main/resources/assignment/birds/images/" + img);
+        Image birdImage = new Image("file:src/main/resources/assignment/birds/carImages/" + img);
         image.setImage(birdImage);
         title.setText(bird.getDataKey().getBirdName());
         about.setText(bird.getAbout());
@@ -158,7 +158,7 @@ public class BirdsController implements Initializable {
             bird = database.smallest();
             if(bird != null)
             {
-            System.out.println("First Bird " + bird.getDataKey().getBirdName());
+            System.out.println("First Car " + bird.getDataKey().getBirdName());
 
             showBird();
             }
@@ -171,7 +171,7 @@ public class BirdsController implements Initializable {
         try {
             bird = database.largest();
             if (bird != null) {
-                System.out.println("Last Bird " + bird.getDataKey().getBirdName());
+                System.out.println("Last Car " + bird.getDataKey().getBirdName());
                 showBird();
             }
         } catch (DictionaryException ex) {
@@ -185,7 +185,7 @@ public class BirdsController implements Initializable {
             BirdRecord nextBird = database.successor(bird.getDataKey());
             if (nextBird != null) {
                 bird = nextBird;
-                System.out.println("Next Bird: " + bird.getDataKey().getBirdName());
+                System.out.println("Next Car: " + bird.getDataKey().getBirdName());
                 showBird();
             }
         } catch (DictionaryException ex) {
@@ -199,7 +199,7 @@ public class BirdsController implements Initializable {
             BirdRecord previousBird = database.predecessor(bird.getDataKey());
             if (previousBird != null) {
                 bird = previousBird;
-                System.out.println("Previous Bird: " + bird.getDataKey().getBirdName());
+                System.out.println("Previous Car: " + bird.getDataKey().getBirdName());
                 showBird();
             }
         } catch (DictionaryException ex) {
@@ -209,7 +209,7 @@ public class BirdsController implements Initializable {
     
 
     public void play() {
-        String filename = "src/main/resources/assignment/birds/sounds/" + bird.getSound();
+        String filename = "src/main/resources/assignment/birds/carSounds/" + bird.getSound();
         media = new Media(new File(filename).toURI().toString());
         player = new MediaPlayer(media);
         play.setDisable(true);
@@ -232,13 +232,14 @@ public class BirdsController implements Initializable {
             String birdName = "";
             String description;
             int size = 0;
-            input = new Scanner(new File("BirdsDatabase.txt"));
+            input = new Scanner(new File("carDict.txt"));
             while (input.hasNext()) // read until  end of file
             {
                 String data = input.nextLine();
                 switch (line % 3) {
                     case 0:
                         size = Integer.parseInt(data);
+                        //System.out.println("xx" + data + "xx");
                         break;
                     case 1:
                         birdName = data;
@@ -246,12 +247,13 @@ public class BirdsController implements Initializable {
                     default:
                         description = data;
                         database.insert(new BirdRecord(new DataKey(birdName, size), description, birdName + ".mp3", birdName + ".jpg"));
+                        //System.out.println(birdName + "__" + size + "__added" );
                         break;
                 }
                 line++;
             }
         } catch (IOException e) {
-            System.out.println("There was an error in reading or opening the file: BirdsDatabase.txt");
+            System.out.println("There was an error in reading or opening the file: carDict.txt");
             System.out.println(e.getMessage());
         } catch (DictionaryException ex) {
             Logger.getLogger(BirdsController.class.getName()).log(Level.SEVERE, null, ex);
@@ -264,7 +266,7 @@ public class BirdsController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         database = new OrderedDictionary();
         size.setItems(FXCollections.observableArrayList(
-                "Small", "Medium", "Large", "None"
+                "Standard", "Luxury Car", "Super Car", "None"
         ));
         size.setValue("None");
     }
